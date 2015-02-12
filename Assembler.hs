@@ -1,7 +1,6 @@
 {-# LANGUAGE TypeSynonymInstances, FlexibleInstances #-}
 
---module Assembler (runAssembler, getMemory, getRegister, eax, ebx, ecx, edx, inc, dec, mov, swap, add, sub, test, gt, mult, ifnz, loopnz, store, load) where
-module Assembler where
+module Assembler (runAssembler, getMemory, getRegister, eax, ebx, ecx, edx, inc, dec, mov, swap, add, sub, test, gt, mult, ifnz, loopnz, store, load) where
 
 import qualified Data.Int
 import Data.Array
